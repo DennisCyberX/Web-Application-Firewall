@@ -1,0 +1,10 @@
+[
+    {
+        "pattern": "(union|select|insert|delete|drop|update|where)",
+        "description": "SQL Injection Attempt"
+    },
+    {
+        "pattern": "(<script>|alert\\(|onerror=|onload=)",
+        "description": "XSS Attempt"
+    }
+]
